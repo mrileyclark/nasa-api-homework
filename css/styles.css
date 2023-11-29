@@ -7,16 +7,7 @@
   box-sizing: border-box;
 }
 
-/* html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-} */
-
 body {
-  height: vh;
-  width: 100%;
-  margin: 0;
   background-image: linear-gradient(
     to bottom right,
     purple,
@@ -26,14 +17,15 @@ body {
     #070b34
   );
   font-family: "Space Mono", monospace;
+  min-height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
   color: white;
   font-size: 1rem;
   text-align: center;
-  padding: 5% 0;
 }
 
 h1 {
@@ -46,7 +38,11 @@ h1 {
 }
 
 .container {
-  padding: 5% 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 10%;
+  display: flex;
 }
 
 button,
@@ -66,6 +62,8 @@ input {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 850px;
+  max-height: 850px;
 }
 
 /******************************************
