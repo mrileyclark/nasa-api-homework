@@ -7,7 +7,8 @@ A fun project to capture a
 
 Link to project: [https://mrileyclark.github.io/nasa-api-homework/]
 
-Shape alt tag 
+<img src="https://github.com/mrileyclark/Landing-Page-with-Countdown/blob/main/records-project.png" width="50%" height="30%">
+
 
 ****
 
