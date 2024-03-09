@@ -5,7 +5,7 @@ NASA Picture of the Day API
 
 A fun project to capture a 
 
-Link to project: []
+Link to project: [https://mrileyclark.github.io/nasa-api-homework/]
 
 Shape alt tag 
 
@@ -13,7 +13,7 @@ Shape alt tag
 
 ## How It's Made: 
 
-Tech used: HTML, CSS, JavaScript, Open Brewery DB
+Tech used: HTML, CSS, JavaScript, Nasa Api
 
 BeerFinder API - Developed a JavaScript application that utilizes 
 the Open Brewery DB API to find breweries in a given city. The user enters 
