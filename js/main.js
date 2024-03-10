@@ -13,6 +13,7 @@ function getFetch() {
       //checks if pic of day is image or video so video can display correctly
       if (data.media_type === "image") {
         document.querySelector("img").src = data.hdurl;
+        document.querySelector("img").style.border = "10px solid goldenrod";
       } else if (data.media_type === "video") {
         document.querySelector("iframe").src = data.url;
       }
@@ -24,9 +25,3 @@ function getFetch() {
     });
 }
 
-// use postman to test api
-// get nasa key log in with account
-//  https://api.nasa.gov/planetary/apod?api_key=32WoR5n1XFZtvrVyRPRMLzCA97MWp8wQW6UdzSFt
-//homework to do
-// ****hiding and showing of image if video part of a date
-//do something different and make it your own how to make it look better
